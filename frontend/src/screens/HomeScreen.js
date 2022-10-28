@@ -53,7 +53,7 @@ function HomeScreen(props) {
         </li>
       </ul>
       {loading ? (
-        <div>Loading...</div>
+        <div><img src={require('../Assets/loading.gif')} alt="loading..." /></div>
       ) : error ? (
         <div>{error}</div>
       ) : (

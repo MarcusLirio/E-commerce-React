@@ -111,7 +111,7 @@ function ProductsScreen(props) {
                 <h2>Create Product</h2>
               </li>
               <li>
-                {loadingSave && <div>Loading...</div>}
+                {loadingSave && <div>agora</div>}
                 {errorSave && <div>{errorSave}</div>}
               </li>
 
